@@ -1,14 +1,14 @@
 # COVID-19 Severity and Mortality Risk Prediction
 
 ## Table of Contents
-- [COVID Severity and Mortality Analysis Dashboard Initial Setup](#covid-severity-and-mortality-analysis-dashboard-initial-setup)
 - [Introduction and Problem Definition](#introduction-and-problem-definition)
 - [Proposed Method](#proposed-method)
 - [Algorithm](#algorithm)
 - [Experiments and Evaluation](#experiments-and-evaluation)
 - [Conclusions & Discussion](#conclusions--discussion)
 - [Example Images](#example-images)
-- [Project Infom]
+- [Project Reports](#project-reports)
+- [COVID Severity and Mortality Analysis Dashboard Initial Setup](#covid-severity-and-mortality-analysis-dashboard-initial-setup)
 
 ## Introduction and Problem Definition
 
@@ -110,6 +110,11 @@ The model is limited to Mexican patient data, making it non-universal. Success c
 This repository contains the COVID Severity and Mortality Analysis dashboard, which utilizes a TabPy connection. The included Jupyter Notebook file will produce and deploy the model. This notebook requires `Covid Data.csv` as an input. The outputs include the deployed model to Tableau and two cleaned datasets: `Covid_Clean_Sankey.csv` and `Covid_Clean.csv`.
 
 The Tableau dashboard allows analysis of trends in COVID outcomes and provides real-time predictions of COVID severity. A partial dashboard is available at: [Patient Analysis](https://public.tableau.com/app/profile/maria.tariq/viz/group155visualization_NoTabpy/PatientAnalysis?publish=yes). However, the full dashboard must be launched locally due to the TabPy connection. Instructions are included below.
+
+## Project Reports
+
+- [Team 155 Final Report](https://github.com/Ghostlun/COVID-19-Severity-and-Mortality-Analysis/blob/master/covid/team155final/DOC/team155report.pdf)
+- [Team 155 Poster](https://github.com/Ghostlun/COVID-19-Severity-and-Mortality-Analysis/blob/master/covid/team155final/DOC/team155poster.pdf)
 
 ### Installation
 
