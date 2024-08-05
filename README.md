@@ -1,5 +1,13 @@
 # COVID-19 Severity and Mortality Risk Prediction
 
+## Table of Contents
+- [COVID Severity and Mortality Analysis Dashboard Initial Setup](#covid-severity-and-mortality-analysis-dashboard-initial-setup)
+- [Introduction and Problem Definition](#introduction-and-problem-definition)
+- [Proposed Method](#proposed-method)
+- [Algorithm](#algorithm)
+- [Experiments and Evaluation](#experiments-and-evaluation)
+- [Conclusions & Discussion](#conclusions--discussion)
+
 ## Introduction and Problem Definition
 
 ### Objective
