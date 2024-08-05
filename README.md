@@ -7,6 +7,8 @@
 - [Algorithm](#algorithm)
 - [Experiments and Evaluation](#experiments-and-evaluation)
 - [Conclusions & Discussion](#conclusions--discussion)
+- [Example Images](#example-images)
+- [Project Infom]
 
 ## Introduction and Problem Definition
 
@@ -92,9 +94,14 @@ Our team developed a COVID-19 risk and mortality prediction tool, leveraging a R
 
 The model is limited to Mexican patient data, making it non-universal. Success could lead to global expansion or separate models for each country. It's crucial to acknowledge that machine learning models aren't infallible, and incorrect predictions may occur. Currently, the model employs binary classification, which may oversimplify patient outcomes. Nevertheless, it aims to enhance decision-making for healthcare workers, improving treatment efficiency and quality.
 
-### Example Pictures
-![Patient Analysis](path/to/image)
-![Patient Flow](path/to/image)
+### Example Images
+#### Patient Analysis
+
+![Patient Analysis](https://github.com/Ghostlun/COVID-19-Severity-and-Mortality-Analysis/blob/master/covid/team155final/Patient%20Analysis.png)"
+
+#### Patient Flow
+
+![Patient Flow](https://github.com/Ghostlun/COVID-19-Severity-and-Mortality-Analysis/blob/master/covid/team155final/Patient%20Flow.png)"
 
 ## COVID Severity and Mortality Analysis Dashboard Initial Setup
 
