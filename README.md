@@ -92,6 +92,9 @@ Our team developed a COVID-19 risk and mortality prediction tool, leveraging a R
 
 The model is limited to Mexican patient data, making it non-universal. Success could lead to global expansion or separate models for each country. It's crucial to acknowledge that machine learning models aren't infallible, and incorrect predictions may occur. Currently, the model employs binary classification, which may oversimplify patient outcomes. Nevertheless, it aims to enhance decision-making for healthcare workers, improving treatment efficiency and quality.
 
+### Example Pictures
+![Patient Analysis](path/to/image)
+![Patient Flow](path/to/image)
 
 ## COVID Severity and Mortality Analysis Dashboard Initial Setup
 
