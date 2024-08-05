@@ -84,9 +84,32 @@ Our team developed a COVID-19 risk and mortality prediction tool, leveraging a R
 
 The model is limited to Mexican patient data, making it non-universal. Success could lead to global expansion or separate models for each country. It's crucial to acknowledge that machine learning models aren't infallible, and incorrect predictions may occur. Currently, the model employs binary classification, which may oversimplify patient outcomes. Nevertheless, it aims to enhance decision-making for healthcare workers, improving treatment efficiency and quality.
 
-### Future Work
 
-Future refinements could address the model's limitations by adopting a probabilistic approach, offering more nuanced insights. This would provide a spectrum of values indicating the likelihood of outcomes rather than strictly classifying them as 0 or 1. Such enhancements would enable more detailed risk assessments and predictions, enriching the model's capabilities in healthcare decision-making.
+## COVID Severity and Mortality Analysis Dashboard Initial Setup
 
+### Description
 
+This repository contains the COVID Severity and Mortality Analysis dashboard, which utilizes a TabPy connection. The included Jupyter Notebook file will produce and deploy the model. This notebook requires `Covid Data.csv` as an input. The outputs include the deployed model to Tableau and two cleaned datasets: `Covid_Clean_Sankey.csv` and `Covid_Clean.csv`.
+
+The Tableau dashboard allows analysis of trends in COVID outcomes and provides real-time predictions of COVID severity. A partial dashboard is available at: [Patient Analysis](https://public.tableau.com/app/profile/maria.tariq/viz/group155visualization_NoTabpy/PatientAnalysis?publish=yes). However, the full dashboard must be launched locally due to the TabPy connection. Instructions are included below.
+
+### Installation
+
+Follow these steps to set up the environment and deploy the model:
+
+1. Open Terminal and run:
+   ```bash
+   pip install tabpy
+   pip install tabpy-client
+   tabpy
+
+2. Once the installation runs successfully, you will see a line in the terminal with "Web service listening on port 9004". Note the port number displayed in the terminal.
+
+3. In Tableau, navigate to Help > Settings and Performance > Manage Analytics Extension Connection.
+
+4. Select TabPy and set the Hostname as localhost and the Port as the noted port number. Test the connection.
+
+5. Open the Jupyter notebook and execute the entire file.
+
+6. Go to Tableau and start using the notebook. If there are errors related to the Datasource, replace them with the same datasets in the folder.
 
